@@ -20,13 +20,13 @@
 
 
 <h2>Step-by-Step</h2>
-Step 1: Configure IP Addressing on PCs
+<b>Step 1:</b> Configure IP Addressing on PCs
 
 Default gateway = last usable address in each subnet
 
 VLAN 10 – Engineering (10.0.0.0/26)
 
-PC1
+- PC1
 
 IP Address: 10.0.0.1
 
@@ -34,7 +34,7 @@ Subnet Mask: 255.255.255.192
 
 Default Gateway: 10.0.0.62
 
-PC2
+- PC2
 
 IP Address: 10.0.0.2
 
@@ -44,7 +44,7 @@ Default Gateway: 10.0.0.62
 
 VLAN 20 – HR (10.0.0.64/26)
 
-PC3
+- PC3
 
 IP Address: 10.0.0.65
 
@@ -52,7 +52,7 @@ Subnet Mask: 255.255.255.192
 
 Default Gateway: 10.0.0.126
 
-PC4
+- PC4
 
 IP Address: 10.0.0.66
 
@@ -62,7 +62,7 @@ Default Gateway: 10.0.0.126
 
 VLAN 30 – Sales (10.0.0.128/26)
 
-PC5
+- PC5
 
 IP Address: 10.0.0.129
 
@@ -70,7 +70,7 @@ Subnet Mask: 255.255.255.192
 
 Default Gateway: 10.0.0.190
 
-PC6
+- PC6
 
 IP Address: 10.0.0.130
 
@@ -78,7 +78,7 @@ Subnet Mask: 255.255.255.192
 
 Default Gateway: 10.0.0.190
 
-Step 2: Connect and Configure Router R1
+<b>Step 2:</b> Connect and Configure Router R1
 Physical Connections (Straight-Through)
 
 SW1 G0/1 → R1 G0/0 (VLAN 10)
